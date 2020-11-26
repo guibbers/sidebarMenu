@@ -97,7 +97,8 @@ label #cancel {
 }
 
 section {
-   background: url(bg.jpg);
+   background: url(/bg.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
    height: 100vh;
-   border: 1px solid red;
 }
